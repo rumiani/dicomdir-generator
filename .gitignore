@@ -1,0 +1,45 @@
+# Binaries
+dicomdir-generator
+dicomdir-generator-linux
+dicomdir-generator-windows.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build artifacts
+*.test
+*.out
+/bin/
+/pkg/
+
+# Build directories
+/dist/
+/build/
+fyne-cross/
+
+# Go workspace file
+go.work
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Backup files
+go.mod.backup
+*.backup
+
+# OS generated files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.log
+*.tmp
+/tmp/
